@@ -2693,7 +2693,7 @@ Transform:
   m_Father: {fileID: 4026153507078044}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!90 &90384510495905822
+--- !u!90 &90480596447542262
 Avatar:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4343,7 +4343,7 @@ Animator:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1364552542015970}
   m_Enabled: 1
-  m_Avatar: {fileID: 90384510495905822}
+  m_Avatar: {fileID: 90480596447542262}
   m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_UpdateMode: 0
@@ -4353,7 +4353,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &114028600110797288
+--- !u!114 &114018892900802238
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4361,17 +4361,28 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 37562b39ff933b245ac2f35d87edbcd6, type: 3}
-  m_Name: BlendShape.I
+  m_Script: {fileID: 11500000, guid: 329dca3bf78fcdd42b2df941673db76f, type: 3}
+  m_Name: BlendShape
   m_EditorClassIdentifier: 
-  m_prefab: {fileID: 0}
-  BlendShapeName: I
-  Preset: 3
-  Values:
-  - RelativePath: Face
-    Index: 29
-    Weight: 100
-  MaterialValues: []
+  Clips:
+  - {fileID: 114919308977758230}
+  - {fileID: 114281403939808472}
+  - {fileID: 114589579340941360}
+  - {fileID: 114504004965660872}
+  - {fileID: 114205650522934780}
+  - {fileID: 114686203549009990}
+  - {fileID: 114115509948156512}
+  - {fileID: 114642553614975366}
+  - {fileID: 114638562154873780}
+  - {fileID: 114808571105833986}
+  - {fileID: 114814320402915172}
+  - {fileID: 114327110117667804}
+  - {fileID: 114326922109594736}
+  - {fileID: 114709347283864222}
+  - {fileID: 114295508465712098}
+  - {fileID: 114319504098052374}
+  - {fileID: 114062568459817610}
+  - {fileID: 114288812786641648}
 --- !u!114 &114028618040324824
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4391,7 +4402,7 @@ MonoBehaviour:
   - Offset: {x: -0.008924771, y: -0.1551373, z: -0.0027866745}
     Radius: 0.081
   m_gizmoColor: {r: 1, g: 0, b: 1, a: 1}
---- !u!114 &114055989918068258
+--- !u!114 &114062568459817610
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4400,17 +4411,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 37562b39ff933b245ac2f35d87edbcd6, type: 3}
-  m_Name: BlendShape.Blink_R
+  m_Name: LookLeft
   m_EditorClassIdentifier: 
   m_prefab: {fileID: 0}
-  BlendShapeName: Blink_R
-  Preset: 17
-  Values:
-  - RelativePath: Face
-    Index: 12
-    Weight: 100
+  BlendShapeName: LookLeft
+  Preset: 14
+  Values: []
   MaterialValues: []
---- !u!114 &114123025149546140
+--- !u!114 &114115509948156512
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4419,14 +4427,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 37562b39ff933b245ac2f35d87edbcd6, type: 3}
-  m_Name: BlendShape.Blink
+  m_Name: BlendShape.Blink_L
   m_EditorClassIdentifier: 
   m_prefab: {fileID: 0}
-  BlendShapeName: Blink
-  Preset: 7
+  BlendShapeName: Blink_L
+  Preset: 16
   Values:
   - RelativePath: Face
-    Index: 11
+    Index: 13
     Weight: 100
   MaterialValues: []
 --- !u!114 &114128943678589816
@@ -4440,9 +4448,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3869812175467a143ab9cd865752b4a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Avatar: {fileID: 90384510495905822}
-  Description: {fileID: 114580862173468584}
---- !u!114 &114165576669549402
+  Avatar: {fileID: 90480596447542262}
+  Description: {fileID: 114325732743683738}
+--- !u!114 &114205650522934780
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4451,49 +4459,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 37562b39ff933b245ac2f35d87edbcd6, type: 3}
-  m_Name: LookUp
+  m_Name: BlendShape.O
   m_EditorClassIdentifier: 
   m_prefab: {fileID: 0}
-  BlendShapeName: LookUp
-  Preset: 12
-  Values: []
-  MaterialValues: []
---- !u!114 &114186256635437940
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 37562b39ff933b245ac2f35d87edbcd6, type: 3}
-  m_Name: BlendShape.Sorrow
-  m_EditorClassIdentifier: 
-  m_prefab: {fileID: 0}
-  BlendShapeName: Sorrow
-  Preset: 10
+  BlendShapeName: O
+  Preset: 6
   Values:
   - RelativePath: Face
-    Index: 3
-    Weight: 100
-  MaterialValues: []
---- !u!114 &114227305626533800
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 37562b39ff933b245ac2f35d87edbcd6, type: 3}
-  m_Name: BlendShape.Surprised
-  m_EditorClassIdentifier: 
-  m_prefab: {fileID: 0}
-  BlendShapeName: Surprised
-  Preset: 0
-  Values:
-  - RelativePath: Face
-    Index: 4
+    Index: 32
     Weight: 100
   MaterialValues: []
 --- !u!114 &114270636778820718
@@ -4526,6 +4499,25 @@ MonoBehaviour:
   - {fileID: 4853682742756220}
   m_hitRadius: 0.02
   ColliderGroups: []
+--- !u!114 &114281403939808472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37562b39ff933b245ac2f35d87edbcd6, type: 3}
+  m_Name: BlendShape.I
+  m_EditorClassIdentifier: 
+  m_prefab: {fileID: 0}
+  BlendShapeName: I
+  Preset: 3
+  Values:
+  - RelativePath: Face
+    Index: 29
+    Weight: 100
+  MaterialValues: []
 --- !u!114 &114283291520419634
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4561,42 +4553,7 @@ MonoBehaviour:
       e33: 1
   m_yaw: 0
   m_pitch: 0
---- !u!114 &114309840891347876
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 37562b39ff933b245ac2f35d87edbcd6, type: 3}
-  m_Name: LookDown
-  m_EditorClassIdentifier: 
-  m_prefab: {fileID: 0}
-  BlendShapeName: LookDown
-  Preset: 13
-  Values: []
-  MaterialValues: []
---- !u!114 &114373006713199114
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 37562b39ff933b245ac2f35d87edbcd6, type: 3}
-  m_Name: BlendShape.O
-  m_EditorClassIdentifier: 
-  m_prefab: {fileID: 0}
-  BlendShapeName: O
-  Preset: 6
-  Values:
-  - RelativePath: Face
-    Index: 32
-    Weight: 100
-  MaterialValues: []
---- !u!114 &114418542212875650
+--- !u!114 &114288812786641648
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4612,62 +4569,7 @@ MonoBehaviour:
   Preset: 15
   Values: []
   MaterialValues: []
---- !u!114 &114433152133515166
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 63b589176a34b344b9ccbee2b7e7114a, type: 3}
-  m_Name: Meta
-  m_EditorClassIdentifier: 
-  ExporterVersion: UniVRM-0.44
-  Title: "\u3073\u3044\u3061\u3083\u3093"
-  Version: 
-  Author: "\u3042\u304D\u3061\u3093"
-  ContactInformation: "\uFF20ichigo7710"
-  Reference: 
-  Thumbnail: {fileID: 2800000, guid: 36983a68580b34556becc2057802e4d4, type: 3}
-  AllowedUser: 1
-  ViolentUssage: 0
-  SexualUssage: 1
-  CommercialUssage: 0
-  OtherPermissionUrl: 
-  LicenseType: 0
-  OtherLicenseUrl: 
---- !u!114 &114482599505122586
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1907643576299358}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00ea06e1753e16f4ca870c39c067c86b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_comment: Skirt
-  m_drawGizmo: 0
-  m_gizmoColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
-  m_stiffnessForce: 0.75
-  m_gravityPower: 0
-  m_gravityDir: {x: 0, y: -1, z: 0}
-  m_dragForce: 0.05
-  m_center: {fileID: 0}
-  RootBones:
-  - {fileID: 4919255556695774}
-  - {fileID: 4131341816986314}
-  - {fileID: 4037973469787694}
-  - {fileID: 4843367954781498}
-  - {fileID: 4592082611063140}
-  - {fileID: 4828918328073240}
-  m_hitRadius: 0.02
-  ColliderGroups:
-  - {fileID: 114534550039563576}
-  - {fileID: 114028618040324824}
---- !u!114 &114487188633633146
+--- !u!114 &114295508465712098
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4676,215 +4578,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 37562b39ff933b245ac2f35d87edbcd6, type: 3}
-  m_Name: Neutral
+  m_Name: LookUp
   m_EditorClassIdentifier: 
   m_prefab: {fileID: 0}
-  BlendShapeName: Neutral
-  Preset: 1
+  BlendShapeName: LookUp
+  Preset: 12
   Values: []
   MaterialValues: []
---- !u!114 &114496998704802900
+--- !u!114 &114319504098052374
 MonoBehaviour:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1364552542015970}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 690ea0146224b8b4694a1925dddeb352, type: 3}
-  m_Name: 
+  m_Script: {fileID: 11500000, guid: 37562b39ff933b245ac2f35d87edbcd6, type: 3}
+  m_Name: LookDown
   m_EditorClassIdentifier: 
-  Meta: {fileID: 114433152133515166}
---- !u!114 &114534550039563576
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1442887591703982}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 646b65a4a57afd34d8c4ed557efb46a5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Colliders:
-  - Offset: {x: 0, y: 0, z: -4.656613e-10}
-    Radius: 0.081
-  - Offset: {x: 0.004867997, y: -0.08462036, z: -0.0015200407}
-    Radius: 0.081
-  - Offset: {x: 0.008924659, y: -0.1551373, z: -0.002786741}
-    Radius: 0.081
-  m_gizmoColor: {r: 1, g: 0, b: 1, a: 1}
---- !u!114 &114537406506670896
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1364552542015970}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b678c1df50cfb547990db24a32856da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  BlendShapeAvatar: {fileID: 114952964748862402}
---- !u!114 &114542969694293838
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1364552542015970}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a8b72334adf6f7948bd98b4f0a873949, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DrawGizmo: 0
-  LeftEye:
-    Transform: {fileID: 4295668327597740}
-    OffsetRotation:
-      e00: 1
-      e01: 0
-      e02: 0
-      e03: 0
-      e10: 0
-      e11: 1
-      e12: 0
-      e13: 0
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-  RightEye:
-    Transform: {fileID: 4078361492463392}
-    OffsetRotation:
-      e00: 1
-      e01: 0
-      e02: 0
-      e03: 0
-      e10: 0
-      e11: 1
-      e12: 0
-      e13: 0
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-  HorizontalOuter:
-    Curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 1
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 1
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    CurveXRangeDegree: 90
-    CurveYRangeDegree: 12
-  HorizontalInner:
-    Curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 1
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 1
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    CurveXRangeDegree: 90
-    CurveYRangeDegree: 8
-  VerticalDown:
-    Curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 1
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 1
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    CurveXRangeDegree: 90
-    CurveYRangeDegree: 10
-  VerticalUp:
-    Curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 1
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 1
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    CurveXRangeDegree: 90
-    CurveYRangeDegree: 10
---- !u!114 &114580862173468584
+  m_prefab: {fileID: 0}
+  BlendShapeName: LookDown
+  Preset: 13
+  Values: []
+  MaterialValues: []
+--- !u!114 &114325732743683738
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5282,7 +4999,7 @@ MonoBehaviour:
     max: {x: 0, y: 0, z: 0}
     center: {x: 0, y: 0, z: 0}
     axisLength: 0
---- !u!114 &114724290722032578
+--- !u!114 &114326922109594736
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5291,17 +5008,78 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 37562b39ff933b245ac2f35d87edbcd6, type: 3}
-  m_Name: BlendShape.A
+  m_Name: BlendShape.Surprised
   m_EditorClassIdentifier: 
   m_prefab: {fileID: 0}
-  BlendShapeName: A
-  Preset: 2
+  BlendShapeName: Surprised
+  Preset: 0
   Values:
   - RelativePath: Face
-    Index: 28
+    Index: 4
     Weight: 100
   MaterialValues: []
---- !u!114 &114749578798298462
+--- !u!114 &114327110117667804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37562b39ff933b245ac2f35d87edbcd6, type: 3}
+  m_Name: BlendShape.Sorrow
+  m_EditorClassIdentifier: 
+  m_prefab: {fileID: 0}
+  BlendShapeName: Sorrow
+  Preset: 10
+  Values:
+  - RelativePath: Face
+    Index: 3
+    Weight: 100
+  MaterialValues: []
+--- !u!114 &114482599505122586
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1907643576299358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00ea06e1753e16f4ca870c39c067c86b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_comment: Skirt
+  m_drawGizmo: 0
+  m_gizmoColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  m_stiffnessForce: 0.75
+  m_gravityPower: 0
+  m_gravityDir: {x: 0, y: -1, z: 0}
+  m_dragForce: 0.05
+  m_center: {fileID: 0}
+  RootBones:
+  - {fileID: 4919255556695774}
+  - {fileID: 4131341816986314}
+  - {fileID: 4037973469787694}
+  - {fileID: 4843367954781498}
+  - {fileID: 4592082611063140}
+  - {fileID: 4828918328073240}
+  m_hitRadius: 0.02
+  ColliderGroups:
+  - {fileID: 114534550039563576}
+  - {fileID: 114028618040324824}
+--- !u!114 &114496998704802900
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1364552542015970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 690ea0146224b8b4694a1925dddeb352, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Meta: {fileID: 114892039907989434}
+--- !u!114 &114504004965660872
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5320,7 +5098,215 @@ MonoBehaviour:
     Index: 31
     Weight: 100
   MaterialValues: []
---- !u!114 &114767306325438550
+--- !u!114 &114534550039563576
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1442887591703982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 646b65a4a57afd34d8c4ed557efb46a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Colliders:
+  - Offset: {x: 0, y: 0, z: -4.656613e-10}
+    Radius: 0.081
+  - Offset: {x: 0.004867997, y: -0.08462036, z: -0.0015200407}
+    Radius: 0.081
+  - Offset: {x: 0.008924659, y: -0.1551373, z: -0.002786741}
+    Radius: 0.081
+  m_gizmoColor: {r: 1, g: 0, b: 1, a: 1}
+--- !u!114 &114537406506670896
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1364552542015970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b678c1df50cfb547990db24a32856da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BlendShapeAvatar: {fileID: 114018892900802238}
+--- !u!114 &114542969694293838
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1364552542015970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8b72334adf6f7948bd98b4f0a873949, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DrawGizmo: 0
+  LeftEye:
+    Transform: {fileID: 4295668327597740}
+    OffsetRotation:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  RightEye:
+    Transform: {fileID: 4078361492463392}
+    OffsetRotation:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  HorizontalOuter:
+    Curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    CurveXRangeDegree: 90
+    CurveYRangeDegree: 12
+  HorizontalInner:
+    Curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    CurveXRangeDegree: 90
+    CurveYRangeDegree: 8
+  VerticalDown:
+    Curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    CurveXRangeDegree: 90
+    CurveYRangeDegree: 10
+  VerticalUp:
+    Curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    CurveXRangeDegree: 90
+    CurveYRangeDegree: 10
+--- !u!114 &114589579340941360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37562b39ff933b245ac2f35d87edbcd6, type: 3}
+  m_Name: BlendShape.U
+  m_EditorClassIdentifier: 
+  m_prefab: {fileID: 0}
+  BlendShapeName: U
+  Preset: 4
+  Values:
+  - RelativePath: Face
+    Index: 30
+    Weight: 100
+  MaterialValues: []
+--- !u!114 &114638562154873780
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5339,7 +5325,80 @@ MonoBehaviour:
     Index: 0
     Weight: 100
   MaterialValues: []
---- !u!114 &114768556902234086
+--- !u!114 &114642553614975366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37562b39ff933b245ac2f35d87edbcd6, type: 3}
+  m_Name: BlendShape.Blink_R
+  m_EditorClassIdentifier: 
+  m_prefab: {fileID: 0}
+  BlendShapeName: Blink_R
+  Preset: 17
+  Values:
+  - RelativePath: Face
+    Index: 12
+    Weight: 100
+  MaterialValues: []
+--- !u!114 &114686203549009990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37562b39ff933b245ac2f35d87edbcd6, type: 3}
+  m_Name: BlendShape.Blink
+  m_EditorClassIdentifier: 
+  m_prefab: {fileID: 0}
+  BlendShapeName: Blink
+  Preset: 7
+  Values:
+  - RelativePath: Face
+    Index: 11
+    Weight: 100
+  MaterialValues: []
+--- !u!114 &114709347283864222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37562b39ff933b245ac2f35d87edbcd6, type: 3}
+  m_Name: Neutral
+  m_EditorClassIdentifier: 
+  m_prefab: {fileID: 0}
+  BlendShapeName: Neutral
+  Preset: 1
+  Values: []
+  MaterialValues: []
+--- !u!114 &114808571105833986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37562b39ff933b245ac2f35d87edbcd6, type: 3}
+  m_Name: BlendShape.Fun
+  m_EditorClassIdentifier: 
+  m_prefab: {fileID: 0}
+  BlendShapeName: Fun
+  Preset: 11
+  Values:
+  - RelativePath: Face
+    Index: 1
+    Weight: 100
+  MaterialValues: []
+--- !u!114 &114814320402915172
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5382,25 +5441,6 @@ MonoBehaviour:
   - {fileID: 4851788009097232}
   m_hitRadius: 0.02
   ColliderGroups: []
---- !u!114 &114875547274885068
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 37562b39ff933b245ac2f35d87edbcd6, type: 3}
-  m_Name: BlendShape.Fun
-  m_EditorClassIdentifier: 
-  m_prefab: {fileID: 0}
-  BlendShapeName: Fun
-  Preset: 11
-  Values:
-  - RelativePath: Face
-    Index: 1
-    Weight: 100
-  MaterialValues: []
 --- !u!114 &114878174254110634
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5421,7 +5461,32 @@ MonoBehaviour:
     FirstPersonFlag: 0
   - Renderer: {fileID: 137827144576292806}
     FirstPersonFlag: 0
---- !u!114 &114883708240864478
+--- !u!114 &114892039907989434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63b589176a34b344b9ccbee2b7e7114a, type: 3}
+  m_Name: Meta
+  m_EditorClassIdentifier: 
+  ExporterVersion: UniVRM-0.44
+  Title: "\u3073\u3044\u3061\u3083\u3093"
+  Version: 
+  Author: "\u3042\u304D\u3061\u3093"
+  ContactInformation: "\uFF20ichigo7710"
+  Reference: 
+  Thumbnail: {fileID: 2800000, guid: 36983a68580b34556becc2057802e4d4, type: 3}
+  AllowedUser: 1
+  ViolentUssage: 0
+  SexualUssage: 1
+  CommercialUssage: 0
+  OtherPermissionUrl: 
+  LicenseType: 0
+  OtherLicenseUrl: 
+--- !u!114 &114919308977758230
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5430,80 +5495,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 37562b39ff933b245ac2f35d87edbcd6, type: 3}
-  m_Name: BlendShape.U
+  m_Name: BlendShape.A
   m_EditorClassIdentifier: 
   m_prefab: {fileID: 0}
-  BlendShapeName: U
-  Preset: 4
+  BlendShapeName: A
+  Preset: 2
   Values:
   - RelativePath: Face
-    Index: 30
+    Index: 28
     Weight: 100
-  MaterialValues: []
---- !u!114 &114945378797011076
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 37562b39ff933b245ac2f35d87edbcd6, type: 3}
-  m_Name: BlendShape.Blink_L
-  m_EditorClassIdentifier: 
-  m_prefab: {fileID: 0}
-  BlendShapeName: Blink_L
-  Preset: 16
-  Values:
-  - RelativePath: Face
-    Index: 13
-    Weight: 100
-  MaterialValues: []
---- !u!114 &114952964748862402
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 329dca3bf78fcdd42b2df941673db76f, type: 3}
-  m_Name: BlendShape
-  m_EditorClassIdentifier: 
-  Clips:
-  - {fileID: 114724290722032578}
-  - {fileID: 114028600110797288}
-  - {fileID: 114883708240864478}
-  - {fileID: 114749578798298462}
-  - {fileID: 114373006713199114}
-  - {fileID: 114123025149546140}
-  - {fileID: 114945378797011076}
-  - {fileID: 114055989918068258}
-  - {fileID: 114767306325438550}
-  - {fileID: 114875547274885068}
-  - {fileID: 114768556902234086}
-  - {fileID: 114186256635437940}
-  - {fileID: 114227305626533800}
-  - {fileID: 114487188633633146}
-  - {fileID: 114165576669549402}
-  - {fileID: 114309840891347876}
-  - {fileID: 114958145506005272}
-  - {fileID: 114418542212875650}
---- !u!114 &114958145506005272
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 37562b39ff933b245ac2f35d87edbcd6, type: 3}
-  m_Name: LookLeft
-  m_EditorClassIdentifier: 
-  m_prefab: {fileID: 0}
-  BlendShapeName: LookLeft
-  Preset: 14
-  Values: []
   MaterialValues: []
 --- !u!137 &137214183568450192
 SkinnedMeshRenderer:
