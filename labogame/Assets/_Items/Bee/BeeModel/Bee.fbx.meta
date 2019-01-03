@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f425dadc39efa42d98786b91c39a0660
+guid: 9bff6ac060ae643a6be4912acd57ac33
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -875,28 +875,28 @@ ModelImporter:
         length: 0
         modified: 0
     skeleton:
-    - name: bee2(1)(Clone)
+    - name: bee2(Clone)
       parentName: 
       position: {x: 0, y: 0, z: 0}
       rotation: {x: 0, y: 0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Body.baked0
-      parentName: bee2(1)(Clone)
+      parentName: bee2(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
       scale: {x: 1, y: 1, z: 1}
     - name: Face.baked0
-      parentName: bee2(1)(Clone)
+      parentName: bee2(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
       scale: {x: 1, y: 1, z: 1}
     - name: Hair001.baked0
-      parentName: bee2(1)(Clone)
+      parentName: bee2(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
       scale: {x: 1, y: 1, z: 1}
     - name: skelton
-      parentName: bee2(1)(Clone)
+      parentName: bee2(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
       scale: {x: 1, y: 1, z: 1}
